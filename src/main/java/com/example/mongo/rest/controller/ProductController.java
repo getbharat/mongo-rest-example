@@ -20,7 +20,7 @@ public class ProductController {
        return productService.save(product);
     }
     @GetMapping("/get")
-    public List<Product> addProduct(){
+    public List<Product> getAllProducts(){
         return productService.get();
     }
 }
